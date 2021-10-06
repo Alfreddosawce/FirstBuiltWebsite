@@ -1,0 +1,27 @@
+Name: Monica
+Nav bar: Home, profile, twitter, instagram, porfolio
+Shop/reservation stuff: https://bizllg.easy-myshop.jp/c-item-list?category_id=670&parent_category_id=630
+
+Affiliate: LLGirls
+
+Twitter: Nana_LLGirls
+Instagram: Monica_x_7
+
+Home section: Main pic, updatable schedules update stuff'
+
+Profile section: About you section
+- height: 162cm
+- from: tokyo jp
+Shooting request on this section, including link to shop
+information about shooting. 
+
+Twitter section:
+just some up to date twitter shit
+
+Instagram section: collage of instagram pictures, auto update
+
+Portfolio section: Just professional pictures with credits to photo taker
+
+Footer: Copyrights
+
+Ideas
