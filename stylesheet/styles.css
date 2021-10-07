@@ -1,0 +1,47 @@
+/* container */
+.container-s1{
+  /* padding: 7% 15%; */
+}
+
+/* Social Bar */
+.social-bar{
+  position: fixed;
+  right: 1%;
+  top: 30%;
+}
+
+.sBar{
+  padding: 30px 0;
+}
+
+/* title */
+body, html{
+  height: 100%;
+}
+.parallax{
+  background-image: url("../images/theo1.jpg");
+
+  height: 885px;
+  width: 95%;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-section{
+  height: 885px;
+  border-bottom: 10px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-text{
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 4rem;
+  text-decoration: underline;
+}
