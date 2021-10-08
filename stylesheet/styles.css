@@ -124,7 +124,7 @@ border-right: 80px solid #C9FCFB;
 }
 
 
-@media only screen and (max-width: 980px){
+/* @media only screen and (max-width: 980px){
   .carousel-image{
     width: 100%;
     height: 100%;
@@ -133,7 +133,7 @@ border-right: 80px solid #C9FCFB;
 
   }
 
-}
+} */
 
 .image-detail{
   text-align: left;
