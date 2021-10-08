@@ -56,15 +56,13 @@ border-right: 80px solid #C9FCFB;
 }
 
 .navbar-brand{
-  font-family: Pacifico, cursive;
+  font-family: "Pacifico", cursive;
   font-weight: 400;
   font-size: 2rem;
 }
 
-.parallax{
+.parallax-title{
   background-image: url("../images/doggo.gif");
-  /* backround-color: white; */
-
   height: 885px;
 
 
@@ -154,6 +152,58 @@ border-right: 80px solid #C9FCFB;
 .image-detail{
   text-align: left;
 }
+
+/* parallax-section */
+.parallax-1{
+  background-image: url("../images/peanut1.jpg");
+  min-height: 885px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2{
+  background-image: url("../images/peanut2.jpg");
+  height: 885px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3{
+  background-image: url("../images/peanut3.jpg");
+  height: 885px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-4{
+  background-image: url("../images/peanut4.jpg");
+  height: 885px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-text{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+}
+
+
 
 #footer{
   padding: 7% 15%;
