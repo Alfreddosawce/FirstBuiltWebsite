@@ -109,18 +109,34 @@ border-right: 80px solid #C9FCFB;
 }
 
 #slideshow{
-  height: 35%;
-  width: 20%;
-  margin: auto;
-  margin-top: 10%;
+ width: 980px;
+ height: 550px;
+ margin: auto;
+ margin-top: 10%;
 }
 
-.carousel-inner img{
+.carousel-image{
+  width: 980px;
+  height: 550px;
+
   object-fit: cover;
+  border: 20px solid #0ABAB5;
+}
+
+
+@media only screen and (max-width: 980px){
+  .carousel-image{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border: 20px solid black;
+
+  }
 
 }
+
 .image-detail{
-  text-align: right;
+  text-align: left;
 }
 
 #footer{
