@@ -8,21 +8,64 @@
   position: fixed;
   right: 1%;
   top: 30%;
+  z-index: 2;
 }
 
 .sBar{
   padding: 30px 0;
+
 }
+
+.sBar a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* complimentaries */
+.section-off{
+  height: 100px;
+  background-color: #C9FCFB;
+}
+
 
 /* title */
 body, html{
-  height: 100%;
+  font-family: "Roboto";
+  font-weight: 300;
 }
+
+.website-border{
+border-left: 80px solid #C9FCFB;
+border-right: 80px solid #C9FCFB;
+}
+
+
+.navbar{
+  z-index: 3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+  background-color: #C9FCFB;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.navbar-brand{
+  font-family: Pacifico, cursive;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
 .parallax{
-  background-image: url("../images/theo1.jpg");
+  background-image: url("../images/doggo.gif");
+  /* backround-color: white; */
 
   height: 885px;
-  width: 95%;
 
 
   background-attachment: fixed;
@@ -43,5 +86,48 @@ body, html{
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-size: 4rem;
-  text-decoration: underline;
+
+}
+
+.title-text .title-subtext{
+  font-size: 2rem;
+  text-align: right;
+  border:0;
+}
+
+
+/* Content */
+#content{
+  padding-bottom: 20%;
+  background-color: #fff;
+}
+
+.paragraph-about-me{
+  font-size: 2rem;
+  width: 45%;
+  font-weight: bold;
+}
+
+#slideshow{
+  height: 35%;
+  width: 20%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.carousel-inner img{
+  object-fit: cover;
+
+}
+.image-detail{
+  text-align: right;
+}
+
+#footer{
+  padding: 7% 15%;
+  background-color: #3E64FF;
+  text-align: center;
+}
+.fab-footer{
+  padding: 0 10px;
 }
