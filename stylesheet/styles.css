@@ -101,6 +101,7 @@ border-right: 80px solid #C9FCFB;
 }
 
 .paragraph-about-me{
+  margin: 3% 0 0 3%;
   font-size: 2rem;
   width: 45%;
   font-weight: bold;

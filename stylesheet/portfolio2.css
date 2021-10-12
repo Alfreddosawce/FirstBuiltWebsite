@@ -1,0 +1,14 @@
+#portfolio-display{
+  padding-top: 10%;
+}
+
+.image-sizing img{
+  width: 729px;
+  height: 532px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+#portfolio-display .mid-section{
+  margin-top: 5%;
+}

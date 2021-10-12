@@ -1,0 +1,33 @@
+#portfolio-display{
+  padding-top: 10%;
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+
+.image-sizing img{
+  width: 840px;
+  height: 559px;
+  object-fit: cover;
+  margin: 25px;
+  border: 20px solid #0ABAB5;
+}
+.trans-box{
+  width: 840px;
+  height: 559px;
+}
+
+@media only screen and (max-width: 1000px){
+  #portfolio-display{
+    padding-top: 30%;
+  }
+  .container-fluid{
+    text-decoration: none;
+  }
+  .image-sizing img{
+    margin: 0;
+    width: 100%;
+  }
+}
