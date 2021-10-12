@@ -19,6 +19,22 @@
   height: 559px;
 }
 
+.portfolio-image{
+  position: relative;
+  width: 100%;
+}
+
+.image-subtext{
+  position: absolute;
+  bottom: 8%;
+  left: 6%;
+  padding: 0 1%;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
 @media only screen and (max-width: 1000px){
   #portfolio-display{
     padding-top: 30%;
@@ -27,7 +43,7 @@
     text-decoration: none;
   }
   .image-sizing img{
-    margin: 0;
+    margin: 1% 0;
     width: 100%;
   }
 }

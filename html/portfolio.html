@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="../stylesheet/styles.css">
   <link rel="stylesheet" href="../stylesheet/portfolio.css">
 
+  <!-- jQuery -->
+  <script src="jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -95,11 +97,38 @@
           <div class="col-lg">
           </div>
           <div class="col-lg">
+            <div class="">
+            </div>
           </div>
           <div class="col-lg col-xs-12">
-            <img src="../images/monica2.jpg" alt="monica image">
+            <div class="portfolio-image">
+              <img src="../images/monica2.jpg" alt="monica image">
+              <a class="image-subtext" href="https://www.instagram.com/halphotograph_/" <span><i class="fas fa-camera"></i> Halphotograph </span></a>
+            </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg">
+          </div>
+          <div class="col-lg col-xs-12">
+            <img id="modal-image" src="../images/monica2.jpg" alt="monica image">
+            <!-- modal-image = myImg -->
+            <div id="modal-container" class="modal">
+              <!-- modal-container = myModal -->
+              <span class="close">&times;</span>
+              <img class="modal-content" alt="">
+              <div class="caption">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <p>wut</p>
+          </div>
+        </div>
+
+
+
 
       </div>
 
@@ -108,6 +137,22 @@
 
 
   </section>
+
+
+  <script type="jquery-3.5.1.min.js">
+
+    $("modal-image").click(function()){
+
+      $("modal-container").css('display', 'block');
+      $("#img").attr('src', this.src);
+      $("#caption").html(this.alt;
+
+    })
+
+    $(".close").click(function()){
+      $("#modal-container").hide();
+    }
+  </script>
 </body>
 
 
