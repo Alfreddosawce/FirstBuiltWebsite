@@ -6,7 +6,6 @@
   text-align: center;
 }
 
-
 .image-sizing img{
   width: 840px;
   height: 559px;
@@ -14,20 +13,115 @@
   margin: 25px;
   border: 20px solid #0ABAB5;
 }
-.trans-box{
-  width: 840px;
-  height: 559px;
+
+.portfolio-image{
+  position: relative;
+  width: 100%;
 }
+
+.portfolio-parallax{
+
+  max-width: 840px;
+  min-height: 559px;
+  object-fit: cover;
+  margin: 25px;
+  border: 20px solid #0ABAB5;
+
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.image-subtext{
+  position: absolute;
+  bottom: 8%;
+  left: 7%;
+  padding: 0 1%;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.P-subtext{
+  position: absolute;
+  padding: 0 1%;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Psubtext-1{
+  bottom: 14%;
+  left: 4%;
+}
+
+.Psubtext-2{
+  left: 60%;
+  top: 180%;
+
+}
+
+.portfolio-img1{
+  background-image: url("../images/monica5.jpg");
+  max-width: 780px;
+  min-height: 900px;
+  margin: 0px;
+}
+
+.portfolio-img2{
+  background-image: url("../images/monica3.jpg");
+    background-position-x: right;
+    background-position-y: center;
+    min-width: 1000px;
+}
+
+.portfolio-img3{
+  background-image: url("../images/monica6.jpg");
+  background-position-x: left;
+  background-position-y: center;
+  min-height: 1000px;
+  min-width: 1415px;
+
+
+}
+
 
 @media only screen and (max-width: 1000px){
   #portfolio-display{
-    padding-top: 30%;
+    /* padding-top: 60%; */
   }
   .container-fluid{
     text-decoration: none;
   }
   .image-sizing img{
-    margin: 0;
+    margin: 1% 0;
     width: 100%;
+  }
+
+  .portfolio-img1{
+
+    max-width: 750px;
+    min-height: 1000px;
+    margin: 0px;
+    border: 20px solid #0ABAB5;
+
+    margin: auto;
+  }
+
+  .portfolio-img2{
+      background-position-x: 40%;
+      background-position-y: center;
+      min-width: 750px;
+
+      margin: auto;
+  }
+
+  .portfolio-img3{
+    background-image: url("../images/monica6.jpg");
+    min-width: 0px;
+    max-width: 780px;
+    background-position-x: 100%;
+    background-position-y: 20rem;
+
   }
 }
