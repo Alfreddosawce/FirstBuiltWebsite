@@ -150,11 +150,39 @@ body, html {
   text-decoration: none;
   cursor: pointer;
 }
+.p-title {
+  background-image: url("../images/monica0.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
+  background-size: cover;
+}
+
+.legend{
+  position: absolute;
+
+}
 
 @media only screen and (max-width: 1000px){
-  .modal-content {
-    width: 100%;
-  }
+    .p-title {
+
+      background-image: url("../images/monicatitle.jpg");
+      background-size: 885px;
+
+    }
+
+    .title-section {
+      height: 670px;
+      border-bottom: 10px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .paragraph-about-me{
+      padding-top: 20%;
+    }
 }
 
 /* parallax-section */
@@ -166,9 +194,6 @@ body, html {
   background-size: cover;
 }
 
-.p-title {
-  background-image: url("../images/theogif.gif");
-}
 
 
 
